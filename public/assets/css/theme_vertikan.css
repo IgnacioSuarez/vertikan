@@ -1,0 +1,380 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Muli:400,300,300italic,400italic);
+body {
+    background: url('../img/bg.jpg') #BCDCF1 repeat-x;
+    font-family: 'Muli', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Muli', sans-serif;
+}
+
+p>b {
+    color: #0060A2;
+}
+
+.social-header img {
+    float: right;
+    margin: 5px;
+}
+
+.skyline-vertikan {
+    background: url('../img/skyline_1170.png') transparent repeat-x;
+    height: 74px;
+    margin-top: 150px;
+}
+
+.logo-header {
+    display: inline-block;
+    margin: 25px 25px 25px 0px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.logo-title {
+    color: #C5C6C8;
+    display: inline-block;
+    margin-bottom: 21px;
+    vertical-align: bottom;
+}
+
+.worker-vertikan {
+    position: absolute;
+    right: -35px;
+    top: -10px;
+    width: 80px;
+    z-index: 1;
+}
+
+
+/*///////////////////	 	N A V B A R		///////////////////*/
+
+.navbar-vertikan {
+    margin: 15px -15px;
+}
+
+.navbar-nav>li>a {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.navbar-lang>li>a {
+    padding: 27.5px 8px;
+}
+
+.navbar-lang img {
+    width: 30px;
+}
+
+
+/*///////////////////	 	E N D  N A V B A R		///////////////////*/
+
+
+/*///////////////////	 	F L E X I S L I D E R		///////////////////*/
+
+.flexslider {
+    margin: 55px -15px 65px -15px !important;
+    border: 0px !important;
+}
+
+.flex-control-paging li a {
+    background: rgba(10, 113, 180, 0.5) !important;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.0) !important;
+    -moz-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.0) !important;
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.0) !important;
+}
+
+.flex-control-paging li a.flex-active {
+    background: rgba(10, 113, 180, 1) !important;
+}
+
+
+/*///////////////////	 	E N D  F L E X I S L I D E R		///////////////////*/
+
+.container-vertikan {
+    background: #fff;
+}
+
+.article-vertikan {
+    margin-bottom: 75px;
+    margin-top: 55px;
+}
+
+.article-vertikan h3 {
+    color: #0A71B4;
+}
+
+h1 {
+    color: #0A71B4;
+}
+
+.article-vertikan p {
+    color: #6F7072;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.services {
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
+.item-services h3,
+h1 .titulares {
+    color: #0A71B4;
+    font-size: 28px;
+}
+
+.item-services p {
+    color: #6F7072;
+}
+
+.item-services-center {
+    border-left: 1px solid #D9DADB;
+    border-right: 1px solid #D9DADB;
+}
+
+.vertikan-info {
+    margin-bottom: 105px;
+    margin-top: 105px;
+}
+
+.vertikan-info h3 {
+    color: #0A71B4;
+    font-size: 28px;
+}
+
+.vertikan-info p {
+    color: #6F7072;
+}
+
+.vertikan-info-center {
+    border-bottom: 1px solid #D9DADB;
+    border-top: 1px solid #D9DADB;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.vertikan-image-team {
+    background: url('../img/team.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    min-height: 255px;
+}
+
+.vertikan-image-personal {
+    background: url('../img/people.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    min-height: 255px;
+}
+
+.vertikan-image-energy {
+    background: url('../img/energy.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    min-height: 255px;
+}
+
+.clients h4 {
+    color: #777;
+    margin-top: 35px;
+}
+
+.clients ul {
+    list-style: none;
+}
+
+.clients li::before {
+    color: #BBBABA;
+    content: "\e080";
+    font-family: "Glyphicons Halflings";
+    margin-left: -40px;
+    margin-right: 5px;
+}
+
+.clients li {
+    color: #6F7072;
+    margin-bottom: 5px;
+}
+
+.grupokan-name {
+    background: #0A71B4;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+.grupokan-name:hover {
+    background: #0060A2;
+}
+
+.grupokan-vertikan {
+    background: url('../img/vertikan.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    min-height: 255px;
+}
+
+.grupokan-reforkan {
+    background: url('../img/reforkan.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    min-height: 255px;
+}
+
+.grupokan-redes-seguridad {
+    background: url('../img/redes-seguridad.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    min-height: 255px;
+}
+
+.grupokan-taludes {
+    background: url('../img/taludes.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    min-height: 255px;
+}
+
+.grupokan-electrikan {
+    background: url('../img/electrikan.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    min-height: 255px;
+}
+
+.grupokan-hidrokan {
+    background: url('../img/hidrokan.jpg') no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    min-height: 255px;
+}
+
+.contact-info h4 {
+    color: #c5c6c8;
+    text-align: center;
+}
+
+label {
+    color: #0e3083;
+}
+
+.form-control {
+    border: 2px solid #0a71b3;
+}
+
+.bottom-contact {
+    background: #ececed;
+    border-top: 2px solid #D9DADB;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bottom-contact h4 {
+    color: #9C9D9F;
+    font-size: 22px;
+    text-align: center;
+}
+
+.bottom-info {
+    background: #0A71B4;
+    border-bottom: 2px solid #0C3082;
+    color: #fff;
+    padding-bottom: 35px;
+    padding-top: 35px;
+}
+
+.bottom-info address {
+    color: #fff;
+    line-height: 25px;
+    margin: 0px;
+    text-align: center;
+}
+
+.bottom-info a,
+.bottom-info a:hover,
+.bottom-info a:active,
+.bottom-info a:focus {
+    color: #fff !important;
+}
+
+footer {
+    color: #0A71B4;
+    margin: 45px 0 35px 0;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .worker-vertikan {
+        position: absolute;
+        right: -20px;
+        top: -5px;
+        width: 60px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    .social-header img {
+        display: inline-block;
+        float: none;
+        margin: -35px 5px 5px;
+    }
+    .logo-title {
+        font-size: 25px;
+        margin-bottom: 22px;
+    }
+    .services {
+        margin-bottom: 105px;
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-header img {
+        display: inline-block;
+        float: none;
+        margin: -35px 5px 5px;
+    }
+    .skyline-vertikan {
+        margin-top: 75px;
+    }
+    .logo-header {
+        display: block;
+        margin: 20px auto;
+        max-width: 350px;
+        width: 100%;
+    }
+    .logo-title {
+        display: block;
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .item-services {
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid #D9DADB;
+    }
+    .item-services-center {
+        border-left: 0px solid #D9DADB;
+        border-right: 0px solid #D9DADB;
+    }
+}
